@@ -1,2 +1,2 @@
 # Django201
-Studying Django201 Functional Based Views (: &lt;3
+Studying Django201 (: &lt;3
