@@ -2,6 +2,8 @@
 {% block title %}title{% endblock %}
 {% block body %}
 {% for post in posts %}
-    {{post.date}}
-    {% endfor %}
+<div>
+    {{post.text}} was written at {{post.date}}
+</div>
+{% endfor %}
 {% endblock %}

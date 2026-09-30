@@ -20,5 +20,6 @@ from django.conf.urls import include
 from feed import urls
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include(urls,namespace='feed'))
+    path('',include(urls,namespace='feed')),
+    path('',include('allauth.urls'))
 ]
